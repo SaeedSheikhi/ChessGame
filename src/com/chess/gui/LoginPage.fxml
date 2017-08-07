@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chess.gui.LoginPage">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="600.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../art/background/chess_game_board_chess_pieces_light_60018_2560x1600.jpg" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="usernameTextField" focusColor="#005eff" layoutX="24.0" layoutY="141.0" promptText="Username" unFocusColor="#f2f2f2">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="passwordTextField" focusColor="#0040ff" layoutX="24.0" layoutY="182.0" promptText="Password" unFocusColor="WHITE">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="405.0" layoutY="342.0" text="Don't have any Account?" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Italic" size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="signupHyperlin" layoutX="547.0" layoutY="338.0" onAction="#handleSignupHyperlink" text="Sign up" textFill="#c5c5d3" underline="true">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="loginHyperlink" layoutX="254.0" layoutY="19.0" onAction="#handleLoginHyperlink" opacity="0.0">
+         <graphic>
+            <Region prefHeight="266.0" prefWidth="97.0" />
+         </graphic>
+      </Hyperlink>
+      <Label fx:id="errMessage" layoutX="24.0" layoutY="226.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

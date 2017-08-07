@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="chess">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/chess_jar/chess.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/chess_jar/chess.jar!/" />
+    </SOURCES>
+  </library>
+</component>
