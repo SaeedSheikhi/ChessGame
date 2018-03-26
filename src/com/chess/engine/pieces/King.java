@@ -15,6 +15,7 @@ import java.util.List;
  * Created by Asus on 2017-07-03.
  */
 public final class King extends Piece {
+    //heloo
 
     private final static int[] CANDIDATE_MOVE_COORDINATES = { -9, -8, -7, -1, 1, 7, 8, 9 };
     private final boolean isCastled;
